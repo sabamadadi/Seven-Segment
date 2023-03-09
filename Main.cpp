@@ -275,7 +275,7 @@ int main(){
 
         cout << "  ";
         for(int i = 0; i < b; i++){
-            if(seg7) cout << "─";
+            if(seg7) cout << "-";
             else cout << ' ';
             if(i + 1 < b) cout << ' ';
         }
