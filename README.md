@@ -2,6 +2,9 @@
 
 To display a number in seven segment format, we use seven LED lights arranged in the shape shown below, which can display different digits from 0 to 9. To display a k-digit number, we need to use k of these seven segments.
 
+<p align="center">
+  <img src="Image.png" />
+
 In printing numbers, we know that each segment is divided into two parts with three lines (top, middle, and bottom). In the top, middle, and bottom lines, we use the character "─" (dash) b times. Note that this character is not present in the main ASCII code table and has been added in the extended ASCII, so you cannot store it in a char variable. To print it, you need to use the following command:
 cout << "─";
 
