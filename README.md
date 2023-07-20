@@ -1,1 +1,1 @@
-# Seven-Segment
+# Seven Segment
