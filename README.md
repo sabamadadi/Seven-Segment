@@ -33,9 +33,8 @@ Overall, to display a number in seven segment format, we need to calculate the l
 ### 📥 Input
 The input consists of a single line containing two natural numbers n and b separated by a space.
 
-1 <= n <= 10^18
-
-1 <= b <= 20
+- `1 <= n <= 10^18`  
+- `1 <= b <= 20`
 
 ### 📤 Output
 The output of your program should be the number n in seven segment format, as explained in the notes. Note that you must use the specified characters and follow the spacing notes.
